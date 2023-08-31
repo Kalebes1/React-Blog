@@ -1,0 +1,32 @@
+*, *::before, *::after{
+    margin: 0;
+    padding:0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --gray-hue: 0;
+    --red-hue:hsl(var(--gray-hue), 80%, 64%);
+    --color-gray-100: hsl(var(--gray-hue), 0%, 34%);
+    --color-gray-200: hsl(var(--gray-hue), 0%, 80%);
+    --color-gray-300: hsl(var(--gray-hue), 0%, 95%);
+    --container-width: 90%;
+
+    --transition: all 500ms ease;
+    --transitionTxt: all .2s ease ;
+}
+
+/*GENERAL STYLES*/
+body{
+    overflow-x: hidden;
+    background: var(--color-gray-300);
+}
+.container{
+    width: var(--container-width);
+    max-width: 1920px;
+    margin-inline: auto;
+}

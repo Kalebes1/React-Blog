@@ -1,0 +1,16 @@
+user
+- username,
+- email,
+- password,
+- profilePic,
+
+category
+- name,
+
+post 
+- title,
+- description,
+- photo,
+- username,
+- categories,
+

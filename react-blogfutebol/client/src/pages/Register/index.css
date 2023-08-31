@@ -1,0 +1,75 @@
+.register{
+    height: calc(100vh - 48px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(31, 31, 31, 0.5),rgba(31, 31, 31, 0.5)), url("../../assets/images/register.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.registerTitle{
+    text-transform: uppercase;
+    color: var(--color-gray-200);
+    font-size: 3.25rem;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+}
+
+.registerForm{
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    margin: 1rem 0;
+    color:var(--color-gray-200);
+}
+
+.registerInput{
+    color:var(--color-gray-300);
+    padding: 0.7rem;
+    background-color: transparent;
+    border-bottom: 1px solid var(--color-gray-200);
+    width: 40rem;
+}
+.registerInput::placeholder{
+    color: rgba(180, 180, 180, 0.5)
+}
+
+.registerButton{
+    width: 100%;
+    margin-top: 1.25rem;
+    cursor: pointer;
+    background-color: #2AA899;
+    border-radius: 0.6rem;
+    padding: 0.6rem;
+    color: var(--color-gray-300);
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 3.75rem;
+    right: 1.2rem;
+    background-color: var(--red-hue);
+    cursor: pointer;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+    color: var(--color-gray-300);   
+}
+
+.register_error{
+    background-color: #ed5a5ab9;
+    padding: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+}

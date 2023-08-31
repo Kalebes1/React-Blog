@@ -1,0 +1,93 @@
+.settings{
+    display: flex;
+}
+
+.settingsWrapper{
+    flex: 9;
+    padding: 1.3rem;
+}
+
+.settingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsUpdateTitle{
+    font-size: 2rem;
+    margin-bottom: 1.3rem;
+    color: var(--red-hue);
+}
+
+.settingsDeleteTitle{
+    color: var(--red-hue);
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsPP{
+    display: flex;
+    align-items: center;
+    margin: 0.6rem 0;
+}
+
+.settingsPP > img{
+    width: 4.3rem;
+    height: 4.3rem;
+    border-radius: 1.25rem;
+    object-fit: cover;
+}
+
+.settingsPPIcon{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--red-hue);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.settingsPPIcon svg{
+    width: 1.5rem;
+    height: auto;
+}
+
+.settingsForm > label{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.settingsForm > input{
+    color: var(--color-gray-100);
+    margin: 0.6rem 0;
+    height: 2rem;
+    background: var(--color-gray-300);
+    border-bottom: 1px solid lightgray;
+}
+
+.settingsSubmit{
+    width: 9rem;
+    align-self: center;
+    border-radius: 0.8rem;
+    color: white;
+    background-color: teal;
+    padding: 0.7rem;
+    margin-top: 1.3rem;
+    cursor: pointer;
+}
+
+.success{
+    color: #008080;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}

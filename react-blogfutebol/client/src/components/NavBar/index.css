@@ -1,0 +1,82 @@
+
+.nav{
+    width: 100vw;
+    height: 3rem;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*=========    NAV-CONTAINER    =========*/
+
+.nav-container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/* LEFT */
+.n-left, .n-right{
+    display: flex;
+}
+
+.n-left{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.n-left > a{
+    background: var(--red-hue);
+    color: #CCC;
+    padding: 0.4rem;
+    border: 1px solid transparent;
+    border-radius: 0.6rem;
+    transition: var(--transition);
+
+}
+.n-left a svg{
+    color: var(--color-gray-200);
+    font-size: 1rem;
+}
+.n-left a:hover{
+    border: var(--color-gray-100);
+    background: transparent;
+}
+/* RIGHT */
+.n-right{
+    gap: 1rem;
+    align-items: center;
+}
+.n-searchIcon svg{
+    color: #fff;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.n-navList{
+    display: flex;
+    gap: 1rem;
+}
+.n-navList > li{
+    font-size: 0.7rem;
+    color: var(--color-gray-200);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.n-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

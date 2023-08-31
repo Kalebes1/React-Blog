@@ -1,0 +1,85 @@
+.login{
+    height: calc(100vh - 48px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(100, 100, 100, 0.5),rgba(100, 100, 100, 0.5)), url("../../assets/images/login.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+span{
+    color: black;
+    font-size: 12px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.loginTitle{
+    text-transform: uppercase;
+    color: var(--color-gray-200);
+    font-size: 3.25rem;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+}
+
+.loginForm{
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label{
+    margin: 1rem 0;
+    color:var(--color-gray-200);
+}
+
+.loginInput{
+    color:var(--color-gray-300);
+    padding: 0.7rem;
+    background-color: transparent;
+    border-bottom: 1px solid var(--color-gray-200);
+    width: 40rem;
+}
+.loginInput::placeholder{
+    color: rgba(180, 180, 180, 0.5)
+}
+
+.loginButton{
+    width: 100%;
+    margin-top: 1.25rem;
+    cursor: pointer;
+    background-color: var(--red-hue);
+    border-radius: 0.6rem;
+    padding: 0.6rem;
+    color: var(--color-gray-300);
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: #ed5a5a69;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 3.75rem;
+    right: 1.2rem;
+    background-color: #2AA899;
+    cursor: pointer;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+    color: var(--color-gray-300);   
+}
+
+
+.login_error{
+    background-color: #ed5a5ab9;
+    padding: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
