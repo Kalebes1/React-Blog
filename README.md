@@ -21,7 +21,8 @@ Foi utilizado nodejs para criação de uma API que integrace as noticias publica
   <img width="800"src="react-blogfutebol\client\src\assets\git\4.png">
   </p>
   
-  
+### Banco MongoDB
+Para utilizar o banco de dados é necessário criar uma conta e adicionar o link no ***.env*** que está localizado dentro da pasta ***api***
 
 ### Instalação
 - Rodar o comando `npm install` na pasta ***api***
